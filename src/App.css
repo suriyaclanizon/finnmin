@@ -1,0 +1,357 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+  .headsize{
+  line-height: 2;
+  padding: 15px;
+  color: darkblue;
+  text-align: center;
+  
+  }
+  .content{
+  background-color: pale grey;
+  }
+  .contentsize{
+  line-height: 2;
+  padding: 15px;
+  color: black;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  
+  
+  }
+  .hsize {
+  font-weight: bold;
+  
+  text-align: center;
+  font-size: 26px;
+  font-family: RobotoSlab-Regular_Bold;
+  padding-top: 2rem;
+  color: var(--black);
+  
+  }
+  
+  .card {
+  width: 90%;
+  margin: 0 auto;
+  }
+  .card {
+  position: relative;
+  display: flex;
+   flex-direction: column;
+   min-width: 0;
+   word-wrap: break-word;
+   background-color: #fff;
+   background-clip: border-box;
+   border-radius: 0.25rem;
+   border: 0 !important
+  
+  }
+  .card-text:last-child {
+   margin-bottom: 0;
+   font-size: 12px;
+  }
+  .card-title {
+   margin-bottom: 0.5rem;
+   font-size: 17px;
+   font-weight: bold;
+  }
+  .colum1 {
+   text-align: center;
+   color: #d18e8d;
+   margin: 10px;
+  }
+  
+  .colum2 {
+   text-align: center;
+   color: #6cb4af;
+   margin: 10px;
+  }
+  
+  .colum3 {
+   text-align: center;
+   color: #abb07f;
+margin: 10px;
+  }
+  .BannerPart {
+  position: absolute;
+  left: 0;
+ right: 0;
+  bottom: -20px;
+  }
+  
+  .pera1 {
+   font-size: 13px;
+   text-align: center;
+   line-height: 2;
+   padding: 2px;
+   font-family: Inter;
+   color: var(--black);
+  
+  
+  }
+  .pera {
+   font-size: 16px;
+   text-align: center;
+   line-height: 2;
+   padding: 2px;
+   font-family: Inter;
+   color: var(--black);
+   font-weight: bold;
+  
+  
+  }
+  .first {
+   text-align: center;
+   line-height: 2;
+   padding: 2px;
+   font-family: Inter;
+ color: var(--black);
+   font-size: 16px;
+   font-weight: 600;
+   font-weight: bold;
+  
+  
+  }
+  .second {
+   font-weight: bold;
+  
+   font-size: 16px;
+   text-align: center;
+   line-height: 2;
+   padding: 2px;
+   font-family: Inter;
+   color: var(--black);
+   
+  
+  }
+  
+  .banner p2{
+   margin-top: 50px;
+   margin-left: 600px;
+   font-size: 14px;
+   color: black;
+   line-height: 25px;
+  }
+  
+  .banner{
+ background-image: url(images/logo.jpg.png);
+   height: 300px;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+  }
+  .row{
+   align-items: center;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+  }
+  .submitbutton {
+   cursor: pointer;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   transition-duration: .4s;
+  }
+  .cancelbutton, .submitbutton {
+ border: 1px solid #703edb;
+   border-radius: 5px;
+   font-size: .8125rem;
+   font-weight: 700;
+   letter-spacing: .01px;
+   line-height: normal;
+   padding: 0.625rem 1rem;
+   width: 100px;
+  }
+  .submitbutton {
+   background-color: #6f3ed9;
+   color: #fff!important;
+   margin: 0;
+  }
+  .App-header {
+   background-color: #282c34;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ font-size: calc(10px + 2vmin);
+   color: white;
+  }
+  .cancelbutton {
+   cursor: pointer;
+   overflow: hidden;
+ position: relative;
+ text-align: center;
+   text-decoration: none;
+   transition-duration: .4s;
+  }
+  .cancelbutton {
+   background-color: #fff;
+ color: #6f3ed9!important;
+   margin: 0 0 0 0.875rem;
+  }
+  .cancelbutton, .submitbutton {
+   border: 1px solid #703edb;
+   border-radius: 5px;
+ font-size: .8125rem;
+   font-weight: 700;
+   letter-spacing: .01px;
+   line-height: normal;
+   padding: 0.625rem 1rem;
+   width: 100px;
+  }
+  
+  .first {
+    text-align: center;
+    padding: 2px;
+    font-family: Inter;
+    color: var(--black);
+    font-size: 17px;
+    font-weight: 600;
+    font-weight: bold;
+
+
+}
+
+.second {
+    font-weight: bold;
+
+    font-size: 22px;
+    text-align: center;
+    padding: 2px;
+    font-family: Inter;
+    color: var(--black);
+}
+
+.hsize1 {
+    line-height: 2;
+    padding: 15px;
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Robotoslap;
+
+
+}
+
+
+.submitbutton {
+    background-color: #6f3ed9;
+    border: 0;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 75px;
+}
+
+.cancelbutton {
+    border-color: #6f3ed9;
+    background-color: white;
+    color: #6f3ed9;
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 5px;
+    width: 75px;
+}
+
+
+.contact {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.for {
+    line-height: 3;
+}
+
+.leftpart {
+    padding-top: 40px;
+}
+
+.rightpart {
+    padding-top: 40px;
+}
+  
+.Footer {
+  background-color: #2d1a4f;
+  height: 60px;
+}
+
+.pa {
+  color: white;
+  text-align: center;
+  padding-top: 17px;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right:  0 !important;
+    margin-left:  0 !important;
+}
+.address {
+   font-size: 13px;
+   font-weight: 600;
+   cursor: pointer;
+   float: left;
+   color: white;
+  }
+  .Footer {
+   background-color: #2d1a4f;
+   height: 47px;
+   font-size: 13px;
+  }
+  .nav-link {
+   display: block;
+   padding: 0.5rem 1rem;
+   color: white;
+   text-decoration: none;
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  }
+  
+ 
+  
